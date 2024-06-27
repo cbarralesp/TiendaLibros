@@ -15,13 +15,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { IndexClienteComponent } from './components/clientes/index-cliente/index-cliente.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InicioComponent,
     SidebarComponent,
-    LoginComponent
+    LoginComponent,
+    IndexClienteComponent
   ],
   imports: [
     BrowserModule,
