@@ -21,6 +21,7 @@ const registro_admin = async function (req,res){
                 data.password = hash;
                 var reg = await Admin.create(data);
                 res.status(200).send({data:reg});
+                
             }else{
                 res.status(200).send({message:'Error server',data:undefined});
             }
