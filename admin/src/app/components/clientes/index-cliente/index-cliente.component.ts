@@ -14,6 +14,9 @@ export class IndexClienteComponent implements OnInit {
   public filtro_correo = '';
   public filtro_nombres = '';
 
+  public pageSize = 3;
+  public page = 1;
+
   constructor(
     private _clienteService : ClienteService
   ) { }

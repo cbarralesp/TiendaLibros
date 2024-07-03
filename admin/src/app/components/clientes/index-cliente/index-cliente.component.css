@@ -1,5 +1,11 @@
 .dropdown-toggle {
     font-weight: normal;
   }
+  .custom-filter-title {
+    font-size: 1.2rem; /* Aumenta el tamaño de la letra */
+  }
   
+  .visually-hidden {
+    display: none;
+  }
   
