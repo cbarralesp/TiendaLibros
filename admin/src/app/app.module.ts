@@ -17,6 +17,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { IndexClienteComponent } from './components/clientes/index-cliente/index-cliente.component';
+import { CreateClienteComponent } from './components/clientes/create-cliente/create-cliente.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { IndexClienteComponent } from './components/clientes/index-cliente/index
     InicioComponent,
     SidebarComponent,
     LoginComponent,
-    IndexClienteComponent
+    IndexClienteComponent,
+    CreateClienteComponent
   ],
   imports: [
     BrowserModule,
